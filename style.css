@@ -10,6 +10,39 @@ body {
   line-height: 1.6em;
 }
 
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #394147;
+}
+
+#sidebar a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+#sidebar a:hover {
+  color: #455A64;
+  transition: color 300ms
+}
+
+#sidebar ul {
+  padding-left: 0px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+#sidebar li {
+  padding: 30px;
+}
+
+#content {
+  margin-left: 120px;
+}
+
 .container {
   width: 610px;
   margin: 30px auto;
@@ -59,17 +92,17 @@ h2 {
   height: 225px;
 }
 
-a {
+#content a {
   text-decoration: none;
   color: #00AA8D;
 }
 
-a:hover {
+#content a:hover {
   color: #455A64;
   transition: color 300ms
 }
 
-ul li {
+#content ul li {
   display: inline-block;
   padding: 0 5px;
 }
